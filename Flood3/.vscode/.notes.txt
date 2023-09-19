@@ -1,6 +1,0 @@
-- You can edit run configs in .vscode/launch.json.
-
-- To run/debug a program, you can click on the bottom button or left sidebar run tab + button.
-   or press F5.
-
-- If a project needs more libs, create a lib folder next to the bin/src folders and add any .jar files inside.
