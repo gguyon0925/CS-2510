@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExamplesFlood",
+            "request": "launch",
+            "mainClass": "ExamplesFlood",
+            "projectName": "FloodItFinal_fc4611eb"
+        },
+        {
+            "type": "java",
+            "name": "Cell",
+            "request": "launch",
+            "mainClass": "Cell",
+            "projectName": "FloodItFinal_fc4611eb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "tester.Main",
+            "args": [
+                "${input:testerClass}"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "testerClass",
+            "type": "promptString",
+            "description": "Enter a class to test (eg. ExamplesShapes)"
+        }
+    ]
+}

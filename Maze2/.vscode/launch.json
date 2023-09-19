@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Maze3",
+            "request": "launch",
+            "mainClass": "Maze3",
+            "projectName": "Maze2_36d76c14"
+        },
+        {
+            "type": "java",
+            "name": "Maze2",
+            "request": "launch",
+            "mainClass": "Maze2",
+            "projectName": "Maze2_36d76c14"
+        },
+        {
+            "type": "java",
+            "name": "Maze",
+            "request": "launch",
+            "mainClass": "Maze",
+            "projectName": "Maze2_36d76c14"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "tester.Main",
+            "args": [
+                "${input:testerClass}"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "testerClass",
+            "type": "promptString",
+            "description": "Enter a class to test (eg. ExamplesShapes)"
+        }
+    ]
+}
